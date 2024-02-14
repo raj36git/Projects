@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0;
+}
+.container {
+  height: 400px;
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.image {
+  background-color: rgb(71, 141, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  height: 145px;
+  width: 150px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+.name {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  padding: 5px;
+  margin-left: 6px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn .subscribe {
+  height: 33px;
+  width: 85px;
+  margin-right: 5px;
+  background-color: rgb(71, 141, 239);
+  border-radius: 11px;
+}
+.subscribe:hover {
+  box-shadow: 1px 1px rgb(79, 248, 158);
+  background-color: rgb(50, 150, 243);
+}
+.btn .msg {
+  height: 33px;
+  width: 85px;
+  background-color: rgb(71, 141, 239);
+  border-radius: 11px;
+}
+.msg:hover {
+  box-shadow: 1px 1px rgb(79, 248, 158);
+  background-color: rgb(50, 150, 243);
+}
+.icon ul {
+  display: flex;
+  justify-content: center;
+}
+.icon ul li {
+  list-style: none;
+  height: 22px;
+  width: 63px;
+  padding: 5px;
+}
