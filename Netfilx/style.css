@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Paaji 2", sans-serif;
+  /* font-weight: 400;
+  font-style: normal; */
+}
+body {
+  background-color: black;
+  color: white;
+}
+.header {
+  width: 100%;
+  height: 95vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./image/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 8px 10px;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav .logo {
+  height: 56px;
+  cursor: pointer;
+}
+nav button {
+  height: 33px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  outline: 0px;
+  padding: 4px 11px;
+  font-size: 14px;
+}
+.lang {
+  width: 134px;
+  padding: 5px;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.lang img {
+  height: 8px;
+  margin-left: 15px;
+}
+.sign {
+  width: 105px;
+  background-color: red;
+}
+.head-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 11px;
+}
+.head-content h1 {
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: 700;
+  max-width: 1200px;
+}
+.head-content h3 {
+  font-size: 22px;
+  /* line-height: 40px; */
+  font-weight: 300;
+  max-width: 700px;
+  margin-bottom: 14px;
+}
+.head-content p {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 400;
+  max-width: 700px;
+}
+.email-signup {
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.email-signup input {
+  height: 52px;
+  width: 433px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 21px;
+  padding: 11px 40px;
+}
+.email-signup button {
+  background-color: red;
+  color: white;
+  height: 52px;
+  width: 193px;
+  border-radius: 5px;
+  font-size: 21px;
+  cursor: pointer;
+  padding: 4px 40px;
+}
+
