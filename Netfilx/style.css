@@ -26,7 +26,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 40px;
 }
 nav .logo {
   height: 56px;
@@ -110,3 +110,113 @@ nav button {
   padding: 4px 40px;
 }
 
+.feature {
+  padding: 60px 15%;
+  font-size: 22px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0px;
+  row-gap: 3px;
+}
+.text-col {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.img-col {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+h2 {
+  max-width: 400px;
+  font-size: 50px;
+}
+.img-col img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.img-col video {
+  margin: 7px;
+}
+.faq {
+  padding: 12px 10px;
+  text-align: center;
+}
+.faq h1 {
+  font-size: 38px;
+  font-weight: 900;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 32px;
+  gap: 6px;
+  margin-bottom: 42px;
+}
+.grid-item {
+  text-align: left;
+  cursor: pointer;
+  background-color: rgb(66, 63, 63);
+  padding: 15px 10px;
+}
+.grid-item:hover {
+  padding: 13px 12px;
+  /* transform: translate(6px 6px); */
+  background-color: rgb(98, 96, 96);
+  font-size: 20px;
+}
+.grid-item p::after {
+  content: "+";
+  font-size: 30px;
+  position: absolute;
+  right: 60px;
+  text-align: center;
+  padding: 3px 8px;
+}
+
+.faq-form p {
+  font-size: 23px;
+  text-align: center;
+}
+.faq-form .email-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  /* border: 2px solid red; */
+  height: 40vh;
+  margin: 21px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.fooBtn button {
+  height: 33px;
+  width: 122px;
+  border-radius: 4px;
+  color: rgb(62, 58, 58);
+  cursor: pointer;
+  outline: 0px;
+  padding: 4px 11px;
+  font-size: 14px;
+}
+.fooBtn foo-lang {
+  width: 134px;
+  padding: 5px;
+  align-items: center;
+  background-color: rgb(54, 50, 50);
+  border: 1px solid white;
+}
+
+.copyright a {
+  color: white;
+}
