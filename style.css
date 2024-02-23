@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #081b29;
+  /* margin-bottom: 20px; */
+}
+header {
+  height: 80vh;
+  width: 100%;
+  /* position: relative; */
+  /* background-color: #081b29; */
+  /* margin-bottom: 20px; */
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 11px;
+  padding: 22px 20rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style-type: none;
+  padding: 9px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a:hover {
+  color: #43aaf4;
+}
+
+.hero {
+  display: flex;
+}
+.hero .hero-col1 {
+  flex-basis: 50%;
+  padding: 17px 116px;
+}
+.hero .hero-col1 img {
+  height: 411px;
+  margin-left: 200px;
+  border-radius: 54px;
+  flex-basis: 50%;
+  opacity: 0.7;
+}
+.hero .hero-col2 {
+  flex-basis: 50%;
+  padding: 10px 10px;
+  margin-top: 9rem;
+  color: white;
+}
+.hero .hero-col2 h1 {
+  font-weight: 800;
+}
+.hero .hero-col2 h1 span {
+  font-weight: 900;
+  color: rgb(33, 203, 237);
+  text-shadow: 2px 4px 4px rgba(213, 241, 6, 0.6);
+}
+.hero .hero-col2 h3 {
+  font-weight: 600;
+  margin-bottom: 11px;
+  color: rgb(93, 93, 248);
+  cursor: pointer;
+}
+.hero .hero-col2 p {
+  font-weight: 400;
+  margin-bottom: 6px;
+  max-width: 350px;
+}
+.hero-btn .hire {
+  height: 42px;
+  width: 112px;
+  border-radius: 7px;
+  background-color: rgb(40, 217, 240);
+  font-weight: 500;
+  cursor: pointer;
+}
+.hero-btn .hire:hover {
+  background-color: rgb(13, 50, 55);
+  color: white;
+}
+.hero-btn .resume {
+  height: 42px;
+  width: 112px;
+  border-radius: 7px;
+  background-color: rgb(151, 4, 141);
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+.hero-btn .resume:hover {
+  background-color: rgb(51, 155, 169);
+  color: black;
+}
+
+main{
+  /* position: absolute; */
+  background-color: rgb(13, 50, 55);
+  height: 80vh;
+  width: 100%;
+  /* margin-top: 20px; */
+  box-sizing: border-box;
+  color: white;
+}
+main .row1 h2{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* color: white; */
+  font-weight: 800;
+}
+.pic{
+  text-align: center;
+}
+.row1 .pic img{
+  /* text-align: center; */
+  height: 230px;
+  width: 230px;
+  border: 4px solid rgb(119, 244, 10);
+  border-radius: 50%;
+}
+.row1 .pic h3{
+  margin-bottom: 30px;
+}
+.row2 p{
+  max-width: 900px;
+  text-align: center;
+  margin-left: 25%;
+}
+.readmore-btn button{
+  text-align: center;
+  height: 38px;
+  width: 172px;
+  margin-top: 11px;
+  margin-left: 43%;
+  border-radius: 5px;
+  background-color: rgb(6, 107, 107);
+  color: white;
+}
+.readmore-btn button:hover{
+ box-shadow: 3px 3px rgb(6, 239, 6);
+  border-radius: 5px;
+  background-color: rgb(9, 176, 176);
+  color: white;
+}
