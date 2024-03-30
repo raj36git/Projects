@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+/* navbar-logo */
+.navbar{
+    height: 62px;
+    background-color: black;
+    width: 100vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.amaz_logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url("./img/amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* nav-address */
+.delivery{
+    font-size: 0.9rem;
+    color: rgba(233, 157, 17, 0.836);
+    margin-left: 35px;
+    text-align: center;
+}
+.add_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -14px;
+}
+.india{
+    font-size: 1rem;
+}
+
+/* search bar */
+.search_bar {
+    display: flex;
+    /* border: 1px solid green; */
+    background-color: pink;
+    height: 45px;
+    width: 782px;
+    border-radius: 5px;
+}
+
+.selects {
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    background-color: rgb(247, 248, 151);
+}
+
+.search {
+    width: 100%;
+    border: none;
+    /* margin-left: 5px; */
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+}
+.search:hover{
+    border: 2px solid orange;
+}
+.search_icon{
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    background-color: rgb(248, 211, 47);
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* login form */
+.login_form{
+    margin: 8px;
+}
+.hello{
+    font-size: 1rem;
+}
+  .lists{
+    display: flex;
+  }
+  .lists p{
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  /* Exchange policy */
+  .return{
+    font-size: 1rem;
+}
+.order{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* cart */
+.cart{
+    display: flex;
+    font-size: 1.9rem;
+}
+.cart_text{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.cart i{
+    color: rgb(245, 176, 15);
+    font-size: 49px;
+}
+
+/* second nav */
+.sec_nav {
+    background-color: #232f3e;
+    height: 45px;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+
+.all_menu {
+    border: 1px solid transparent;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    padding: 3px;
+    margin-left: 20px;
+}
+.all_menu:hover{
+    border: 1px solid white;
+}
+
+.all_menu i {
+    margin: 5px;
+}
+
+.all_menu p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* second nav panel option */
+.option_nav{
+    display: flex;
+    padding: 4px;
+    margin: 3px;
+    align-items: center;
+    width: 80%;
+  }
+  .option_nav p{
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  /* hero section */
+  .hero{
+    background-image: url("./img/hero_sec.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+  }
+ 
+  .amazon_in{
+    height: 38px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-bottom: 40px;
+    
+  }
+  .amazon_in p a{
+    text-decoration: none;
+    color: blue;
+  }
+
+  /* product sections */
+
+  .container{
+    background-color: rgb(247, 179, 239);
+    height: 600px;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    /* margin: 15px; */
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.box{
+ border: 2px solid rgb(240, 234, 234);
+background-color: white;
+height: 300px;
+width: 23%;
+text-align: center;
+margin: 9px;
+border-radius: 5px;
+
+}
+.box img{
+margin: 5px;
+}
+
+.box1 h3{
+font-size: 22px;
+font-weight: bold;
+text-align: left;
+margin-left: 2rem;
+}
+.box1 p{
+font-size: 15px;
+font-weight: 28px;
+margin-bottom: 5px;
+margin-left: 0px;
+text-align: left;
+}
+.box1 p a{
+text-decoration: none;
+color: rgb(51, 50, 50);
+/* border: 1px solid rgb(245, 206, 133); */
+/* background-color: rgb(240, 164, 240); */
+padding: 5px;
+}
+.box1 p a:hover{
+background-color: rgb(199, 143, 251);
+color: white;
+}
+
